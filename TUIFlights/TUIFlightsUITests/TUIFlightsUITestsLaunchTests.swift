@@ -1,13 +1,13 @@
 //
-//  TUIFlightUITestsLaunchTests.swift
-//  TUIFlightUITests
+//  TUIFlightsUITestsLaunchTests.swift
+//  TUIFlightsUITests
 //
-//  Created by Anderson F Carvalho on 14/08/23.
+//  Created by Anderson F Carvalho on 16/08/23.
 //
 
 import XCTest
 
-final class TUIFlightUITestsLaunchTests: XCTestCase {
+final class TUIFlightsUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

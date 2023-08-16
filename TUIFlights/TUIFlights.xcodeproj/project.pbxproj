@@ -7,66 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		196FA34C2A8A7032001F34F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FA34B2A8A7032001F34F0 /* AppDelegate.swift */; };
-		196FA34E2A8A7032001F34F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FA34D2A8A7032001F34F0 /* SceneDelegate.swift */; };
-		196FA3502A8A7032001F34F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FA34F2A8A7032001F34F0 /* ViewController.swift */; };
-		196FA3532A8A7032001F34F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196FA3512A8A7032001F34F0 /* Main.storyboard */; };
-		196FA3552A8A7035001F34F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196FA3542A8A7035001F34F0 /* Assets.xcassets */; };
-		196FA3582A8A7035001F34F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196FA3562A8A7035001F34F0 /* LaunchScreen.storyboard */; };
-		196FA3632A8A7035001F34F0 /* TUIFlightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FA3622A8A7035001F34F0 /* TUIFlightTests.swift */; };
-		196FA36D2A8A7035001F34F0 /* TUIFlightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FA36C2A8A7035001F34F0 /* TUIFlightUITests.swift */; };
-		196FA36F2A8A7035001F34F0 /* TUIFlightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FA36E2A8A7035001F34F0 /* TUIFlightUITestsLaunchTests.swift */; };
+		19D921D82A8CD98300E56C7D /* TUIFlightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D921D72A8CD98300E56C7D /* TUIFlightsApp.swift */; };
+		19D921DA2A8CD98300E56C7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D921D92A8CD98300E56C7D /* ContentView.swift */; };
+		19D921DC2A8CD98400E56C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D921DB2A8CD98400E56C7D /* Assets.xcassets */; };
+		19D921DF2A8CD98400E56C7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D921DE2A8CD98400E56C7D /* Preview Assets.xcassets */; };
+		19D921E92A8CD98400E56C7D /* TUIFlightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D921E82A8CD98400E56C7D /* TUIFlightsTests.swift */; };
+		19D921F32A8CD98400E56C7D /* TUIFlightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D921F22A8CD98400E56C7D /* TUIFlightsUITests.swift */; };
+		19D921F52A8CD98400E56C7D /* TUIFlightsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D921F42A8CD98400E56C7D /* TUIFlightsUITestsLaunchTests.swift */; };
+		19D922032A8CD9DA00E56C7D /* TUIFlightsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D922022A8CD9DA00E56C7D /* TUIFlightsViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		196FA35F2A8A7035001F34F0 /* PBXContainerItemProxy */ = {
+		19D921E52A8CD98400E56C7D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 196FA3402A8A7032001F34F0 /* Project object */;
+			containerPortal = 19D921CC2A8CD98300E56C7D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 196FA3472A8A7032001F34F0;
-			remoteInfo = TUIFlight;
+			remoteGlobalIDString = 19D921D32A8CD98300E56C7D;
+			remoteInfo = TUIFlights;
 		};
-		196FA3692A8A7035001F34F0 /* PBXContainerItemProxy */ = {
+		19D921EF2A8CD98400E56C7D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 196FA3402A8A7032001F34F0 /* Project object */;
+			containerPortal = 19D921CC2A8CD98300E56C7D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 196FA3472A8A7032001F34F0;
-			remoteInfo = TUIFlight;
+			remoteGlobalIDString = 19D921D32A8CD98300E56C7D;
+			remoteInfo = TUIFlights;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		196FA3482A8A7032001F34F0 /* TUIFlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TUIFlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		196FA34B2A8A7032001F34F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		196FA34D2A8A7032001F34F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		196FA34F2A8A7032001F34F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		196FA3522A8A7032001F34F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		196FA3542A8A7035001F34F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		196FA3572A8A7035001F34F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		196FA3592A8A7035001F34F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		196FA35E2A8A7035001F34F0 /* TUIFlightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TUIFlightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		196FA3622A8A7035001F34F0 /* TUIFlightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIFlightTests.swift; sourceTree = "<group>"; };
-		196FA3682A8A7035001F34F0 /* TUIFlightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TUIFlightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		196FA36C2A8A7035001F34F0 /* TUIFlightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIFlightUITests.swift; sourceTree = "<group>"; };
-		196FA36E2A8A7035001F34F0 /* TUIFlightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIFlightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19D921D42A8CD98300E56C7D /* TUIFlights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TUIFlights.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D921D72A8CD98300E56C7D /* TUIFlightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIFlightsApp.swift; sourceTree = "<group>"; };
+		19D921D92A8CD98300E56C7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		19D921DB2A8CD98400E56C7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19D921DE2A8CD98400E56C7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19D921E42A8CD98400E56C7D /* TUIFlightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TUIFlightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D921E82A8CD98400E56C7D /* TUIFlightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIFlightsTests.swift; sourceTree = "<group>"; };
+		19D921EE2A8CD98400E56C7D /* TUIFlightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TUIFlightsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D921F22A8CD98400E56C7D /* TUIFlightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIFlightsUITests.swift; sourceTree = "<group>"; };
+		19D921F42A8CD98400E56C7D /* TUIFlightsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIFlightsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19D922022A8CD9DA00E56C7D /* TUIFlightsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIFlightsViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		196FA3452A8A7032001F34F0 /* Frameworks */ = {
+		19D921D12A8CD98300E56C7D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		196FA35B2A8A7035001F34F0 /* Frameworks */ = {
+		19D921E12A8CD98400E56C7D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		196FA3652A8A7035001F34F0 /* Frameworks */ = {
+		19D921EB2A8CD98400E56C7D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,137 +73,151 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		196FA33F2A8A7032001F34F0 = {
+		19D921CB2A8CD98300E56C7D = {
 			isa = PBXGroup;
 			children = (
-				196FA34A2A8A7032001F34F0 /* TUIFlight */,
-				196FA3612A8A7035001F34F0 /* TUIFlightTests */,
-				196FA36B2A8A7035001F34F0 /* TUIFlightUITests */,
-				196FA3492A8A7032001F34F0 /* Products */,
+				19D921D62A8CD98300E56C7D /* TUIFlights */,
+				19D921E72A8CD98400E56C7D /* TUIFlightsTests */,
+				19D921F12A8CD98400E56C7D /* TUIFlightsUITests */,
+				19D921D52A8CD98300E56C7D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		196FA3492A8A7032001F34F0 /* Products */ = {
+		19D921D52A8CD98300E56C7D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				196FA3482A8A7032001F34F0 /* TUIFlight.app */,
-				196FA35E2A8A7035001F34F0 /* TUIFlightTests.xctest */,
-				196FA3682A8A7035001F34F0 /* TUIFlightUITests.xctest */,
+				19D921D42A8CD98300E56C7D /* TUIFlights.app */,
+				19D921E42A8CD98400E56C7D /* TUIFlightsTests.xctest */,
+				19D921EE2A8CD98400E56C7D /* TUIFlightsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		196FA34A2A8A7032001F34F0 /* TUIFlight */ = {
+		19D921D62A8CD98300E56C7D /* TUIFlights */ = {
 			isa = PBXGroup;
 			children = (
-				196FA34B2A8A7032001F34F0 /* AppDelegate.swift */,
-				196FA34D2A8A7032001F34F0 /* SceneDelegate.swift */,
-				196FA34F2A8A7032001F34F0 /* ViewController.swift */,
-				196FA3512A8A7032001F34F0 /* Main.storyboard */,
-				196FA3542A8A7035001F34F0 /* Assets.xcassets */,
-				196FA3562A8A7035001F34F0 /* LaunchScreen.storyboard */,
-				196FA3592A8A7035001F34F0 /* Info.plist */,
+				19D921D72A8CD98300E56C7D /* TUIFlightsApp.swift */,
+				19D921D92A8CD98300E56C7D /* ContentView.swift */,
+				19D921DB2A8CD98400E56C7D /* Assets.xcassets */,
+				19D921DD2A8CD98400E56C7D /* Preview Content */,
 			);
-			path = TUIFlight;
+			path = TUIFlights;
 			sourceTree = "<group>";
 		};
-		196FA3612A8A7035001F34F0 /* TUIFlightTests */ = {
+		19D921DD2A8CD98400E56C7D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				196FA3622A8A7035001F34F0 /* TUIFlightTests.swift */,
+				19D921DE2A8CD98400E56C7D /* Preview Assets.xcassets */,
 			);
-			path = TUIFlightTests;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		196FA36B2A8A7035001F34F0 /* TUIFlightUITests */ = {
+		19D921E72A8CD98400E56C7D /* TUIFlightsTests */ = {
 			isa = PBXGroup;
 			children = (
-				196FA36C2A8A7035001F34F0 /* TUIFlightUITests.swift */,
-				196FA36E2A8A7035001F34F0 /* TUIFlightUITestsLaunchTests.swift */,
+				19D922012A8CD9A500E56C7D /* ViewModels */,
+				19D921E82A8CD98400E56C7D /* TUIFlightsTests.swift */,
 			);
-			path = TUIFlightUITests;
+			path = TUIFlightsTests;
+			sourceTree = "<group>";
+		};
+		19D921F12A8CD98400E56C7D /* TUIFlightsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19D921F22A8CD98400E56C7D /* TUIFlightsUITests.swift */,
+				19D921F42A8CD98400E56C7D /* TUIFlightsUITestsLaunchTests.swift */,
+			);
+			path = TUIFlightsUITests;
+			sourceTree = "<group>";
+		};
+		19D922012A8CD9A500E56C7D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				19D922022A8CD9DA00E56C7D /* TUIFlightsViewModelTests.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		196FA3472A8A7032001F34F0 /* TUIFlight */ = {
+		19D921D32A8CD98300E56C7D /* TUIFlights */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 196FA3722A8A7035001F34F0 /* Build configuration list for PBXNativeTarget "TUIFlight" */;
+			buildConfigurationList = 19D921F82A8CD98400E56C7D /* Build configuration list for PBXNativeTarget "TUIFlights" */;
 			buildPhases = (
-				196FA3442A8A7032001F34F0 /* Sources */,
-				196FA3452A8A7032001F34F0 /* Frameworks */,
-				196FA3462A8A7032001F34F0 /* Resources */,
+				19D921D02A8CD98300E56C7D /* Sources */,
+				19D921D12A8CD98300E56C7D /* Frameworks */,
+				19D921D22A8CD98300E56C7D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TUIFlight;
-			productName = TUIFlight;
-			productReference = 196FA3482A8A7032001F34F0 /* TUIFlight.app */;
+			name = TUIFlights;
+			productName = TUIFlights;
+			productReference = 19D921D42A8CD98300E56C7D /* TUIFlights.app */;
 			productType = "com.apple.product-type.application";
 		};
-		196FA35D2A8A7035001F34F0 /* TUIFlightTests */ = {
+		19D921E32A8CD98400E56C7D /* TUIFlightsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 196FA3752A8A7035001F34F0 /* Build configuration list for PBXNativeTarget "TUIFlightTests" */;
+			buildConfigurationList = 19D921FB2A8CD98400E56C7D /* Build configuration list for PBXNativeTarget "TUIFlightsTests" */;
 			buildPhases = (
-				196FA35A2A8A7035001F34F0 /* Sources */,
-				196FA35B2A8A7035001F34F0 /* Frameworks */,
-				196FA35C2A8A7035001F34F0 /* Resources */,
+				19D921E02A8CD98400E56C7D /* Sources */,
+				19D921E12A8CD98400E56C7D /* Frameworks */,
+				19D921E22A8CD98400E56C7D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				196FA3602A8A7035001F34F0 /* PBXTargetDependency */,
+				19D921E62A8CD98400E56C7D /* PBXTargetDependency */,
 			);
-			name = TUIFlightTests;
-			productName = TUIFlightTests;
-			productReference = 196FA35E2A8A7035001F34F0 /* TUIFlightTests.xctest */;
+			name = TUIFlightsTests;
+			productName = TUIFlightsTests;
+			productReference = 19D921E42A8CD98400E56C7D /* TUIFlightsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		196FA3672A8A7035001F34F0 /* TUIFlightUITests */ = {
+		19D921ED2A8CD98400E56C7D /* TUIFlightsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 196FA3782A8A7035001F34F0 /* Build configuration list for PBXNativeTarget "TUIFlightUITests" */;
+			buildConfigurationList = 19D921FE2A8CD98400E56C7D /* Build configuration list for PBXNativeTarget "TUIFlightsUITests" */;
 			buildPhases = (
-				196FA3642A8A7035001F34F0 /* Sources */,
-				196FA3652A8A7035001F34F0 /* Frameworks */,
-				196FA3662A8A7035001F34F0 /* Resources */,
+				19D921EA2A8CD98400E56C7D /* Sources */,
+				19D921EB2A8CD98400E56C7D /* Frameworks */,
+				19D921EC2A8CD98400E56C7D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				196FA36A2A8A7035001F34F0 /* PBXTargetDependency */,
+				19D921F02A8CD98400E56C7D /* PBXTargetDependency */,
 			);
-			name = TUIFlightUITests;
-			productName = TUIFlightUITests;
-			productReference = 196FA3682A8A7035001F34F0 /* TUIFlightUITests.xctest */;
+			name = TUIFlightsUITests;
+			productName = TUIFlightsUITests;
+			productReference = 19D921EE2A8CD98400E56C7D /* TUIFlightsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		196FA3402A8A7032001F34F0 /* Project object */ = {
+		19D921CC2A8CD98300E56C7D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					196FA3472A8A7032001F34F0 = {
+					19D921D32A8CD98300E56C7D = {
 						CreatedOnToolsVersion = 14.3;
 					};
-					196FA35D2A8A7035001F34F0 = {
+					19D921E32A8CD98400E56C7D = {
 						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 196FA3472A8A7032001F34F0;
+						TestTargetID = 19D921D32A8CD98300E56C7D;
 					};
-					196FA3672A8A7035001F34F0 = {
+					19D921ED2A8CD98400E56C7D = {
 						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 196FA3472A8A7032001F34F0;
+						TestTargetID = 19D921D32A8CD98300E56C7D;
 					};
 				};
 			};
-			buildConfigurationList = 196FA3432A8A7032001F34F0 /* Build configuration list for PBXProject "TUIFlight" */;
+			buildConfigurationList = 19D921CF2A8CD98300E56C7D /* Build configuration list for PBXProject "TUIFlights" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +225,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 196FA33F2A8A7032001F34F0;
-			productRefGroup = 196FA3492A8A7032001F34F0 /* Products */;
+			mainGroup = 19D921CB2A8CD98300E56C7D;
+			productRefGroup = 19D921D52A8CD98300E56C7D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				196FA3472A8A7032001F34F0 /* TUIFlight */,
-				196FA35D2A8A7035001F34F0 /* TUIFlightTests */,
-				196FA3672A8A7035001F34F0 /* TUIFlightUITests */,
+				19D921D32A8CD98300E56C7D /* TUIFlights */,
+				19D921E32A8CD98400E56C7D /* TUIFlightsTests */,
+				19D921ED2A8CD98400E56C7D /* TUIFlightsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		196FA3462A8A7032001F34F0 /* Resources */ = {
+		19D921D22A8CD98300E56C7D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				196FA3582A8A7035001F34F0 /* LaunchScreen.storyboard in Resources */,
-				196FA3552A8A7035001F34F0 /* Assets.xcassets in Resources */,
-				196FA3532A8A7032001F34F0 /* Main.storyboard in Resources */,
+				19D921DF2A8CD98400E56C7D /* Preview Assets.xcassets in Resources */,
+				19D921DC2A8CD98400E56C7D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		196FA35C2A8A7035001F34F0 /* Resources */ = {
+		19D921E22A8CD98400E56C7D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		196FA3662A8A7035001F34F0 /* Resources */ = {
+		19D921EC2A8CD98400E56C7D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,69 +264,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		196FA3442A8A7032001F34F0 /* Sources */ = {
+		19D921D02A8CD98300E56C7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				196FA3502A8A7032001F34F0 /* ViewController.swift in Sources */,
-				196FA34C2A8A7032001F34F0 /* AppDelegate.swift in Sources */,
-				196FA34E2A8A7032001F34F0 /* SceneDelegate.swift in Sources */,
+				19D921DA2A8CD98300E56C7D /* ContentView.swift in Sources */,
+				19D921D82A8CD98300E56C7D /* TUIFlightsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		196FA35A2A8A7035001F34F0 /* Sources */ = {
+		19D921E02A8CD98400E56C7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				196FA3632A8A7035001F34F0 /* TUIFlightTests.swift in Sources */,
+				19D921E92A8CD98400E56C7D /* TUIFlightsTests.swift in Sources */,
+				19D922032A8CD9DA00E56C7D /* TUIFlightsViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		196FA3642A8A7035001F34F0 /* Sources */ = {
+		19D921EA2A8CD98400E56C7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				196FA36D2A8A7035001F34F0 /* TUIFlightUITests.swift in Sources */,
-				196FA36F2A8A7035001F34F0 /* TUIFlightUITestsLaunchTests.swift in Sources */,
+				19D921F32A8CD98400E56C7D /* TUIFlightsUITests.swift in Sources */,
+				19D921F52A8CD98400E56C7D /* TUIFlightsUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		196FA3602A8A7035001F34F0 /* PBXTargetDependency */ = {
+		19D921E62A8CD98400E56C7D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 196FA3472A8A7032001F34F0 /* TUIFlight */;
-			targetProxy = 196FA35F2A8A7035001F34F0 /* PBXContainerItemProxy */;
+			target = 19D921D32A8CD98300E56C7D /* TUIFlights */;
+			targetProxy = 19D921E52A8CD98400E56C7D /* PBXContainerItemProxy */;
 		};
-		196FA36A2A8A7035001F34F0 /* PBXTargetDependency */ = {
+		19D921F02A8CD98400E56C7D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 196FA3472A8A7032001F34F0 /* TUIFlight */;
-			targetProxy = 196FA3692A8A7035001F34F0 /* PBXContainerItemProxy */;
+			target = 19D921D32A8CD98300E56C7D /* TUIFlights */;
+			targetProxy = 19D921EF2A8CD98400E56C7D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		196FA3512A8A7032001F34F0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				196FA3522A8A7032001F34F0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		196FA3562A8A7035001F34F0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				196FA3572A8A7035001F34F0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		196FA3702A8A7035001F34F0 /* Debug */ = {
+		19D921F62A8CD98400E56C7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +367,7 @@
 			};
 			name = Debug;
 		};
-		196FA3712A8A7035001F34F0 /* Release */ = {
+		19D921F72A8CD98400E56C7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,19 +421,20 @@
 			};
 			name = Release;
 		};
-		196FA3732A8A7035001F34F0 /* Debug */ = {
+		19D921F92A8CD98400E56C7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TUIFlights/Preview Content\"";
 				DEVELOPMENT_TEAM = 7K28YK2JUX;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TUIFlight/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -450,7 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.asfcarvalho.TUIFlight;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asfcarvalho.TUIFlights;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -458,19 +450,20 @@
 			};
 			name = Debug;
 		};
-		196FA3742A8A7035001F34F0 /* Release */ = {
+		19D921FA2A8CD98400E56C7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TUIFlights/Preview Content\"";
 				DEVELOPMENT_TEAM = 7K28YK2JUX;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TUIFlight/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -478,7 +471,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.asfcarvalho.TUIFlight;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asfcarvalho.TUIFlights;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -486,7 +479,7 @@
 			};
 			name = Release;
 		};
-		196FA3762A8A7035001F34F0 /* Debug */ = {
+		19D921FC2A8CD98400E56C7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -497,16 +490,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.asfcarvalho.TUIFlightTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asfcarvalho.TUIFlightsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TUIFlight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TUIFlight";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TUIFlights.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TUIFlights";
 			};
 			name = Debug;
 		};
-		196FA3772A8A7035001F34F0 /* Release */ = {
+		19D921FD2A8CD98400E56C7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -517,16 +510,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.asfcarvalho.TUIFlightTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asfcarvalho.TUIFlightsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TUIFlight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TUIFlight";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TUIFlights.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TUIFlights";
 			};
 			name = Release;
 		};
-		196FA3792A8A7035001F34F0 /* Debug */ = {
+		19D921FF2A8CD98400E56C7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -535,16 +528,16 @@
 				DEVELOPMENT_TEAM = 7K28YK2JUX;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.asfcarvalho.TUIFlightUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asfcarvalho.TUIFlightsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TUIFlight;
+				TEST_TARGET_NAME = TUIFlights;
 			};
 			name = Debug;
 		};
-		196FA37A2A8A7035001F34F0 /* Release */ = {
+		19D922002A8CD98400E56C7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -553,55 +546,55 @@
 				DEVELOPMENT_TEAM = 7K28YK2JUX;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.asfcarvalho.TUIFlightUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asfcarvalho.TUIFlightsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TUIFlight;
+				TEST_TARGET_NAME = TUIFlights;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		196FA3432A8A7032001F34F0 /* Build configuration list for PBXProject "TUIFlight" */ = {
+		19D921CF2A8CD98300E56C7D /* Build configuration list for PBXProject "TUIFlights" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				196FA3702A8A7035001F34F0 /* Debug */,
-				196FA3712A8A7035001F34F0 /* Release */,
+				19D921F62A8CD98400E56C7D /* Debug */,
+				19D921F72A8CD98400E56C7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		196FA3722A8A7035001F34F0 /* Build configuration list for PBXNativeTarget "TUIFlight" */ = {
+		19D921F82A8CD98400E56C7D /* Build configuration list for PBXNativeTarget "TUIFlights" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				196FA3732A8A7035001F34F0 /* Debug */,
-				196FA3742A8A7035001F34F0 /* Release */,
+				19D921F92A8CD98400E56C7D /* Debug */,
+				19D921FA2A8CD98400E56C7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		196FA3752A8A7035001F34F0 /* Build configuration list for PBXNativeTarget "TUIFlightTests" */ = {
+		19D921FB2A8CD98400E56C7D /* Build configuration list for PBXNativeTarget "TUIFlightsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				196FA3762A8A7035001F34F0 /* Debug */,
-				196FA3772A8A7035001F34F0 /* Release */,
+				19D921FC2A8CD98400E56C7D /* Debug */,
+				19D921FD2A8CD98400E56C7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		196FA3782A8A7035001F34F0 /* Build configuration list for PBXNativeTarget "TUIFlightUITests" */ = {
+		19D921FE2A8CD98400E56C7D /* Build configuration list for PBXNativeTarget "TUIFlightsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				196FA3792A8A7035001F34F0 /* Debug */,
-				196FA37A2A8A7035001F34F0 /* Release */,
+				19D921FF2A8CD98400E56C7D /* Debug */,
+				19D922002A8CD98400E56C7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 196FA3402A8A7032001F34F0 /* Project object */;
+	rootObject = 19D921CC2A8CD98300E56C7D /* Project object */;
 }
