@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7D1D9477-23B5-4390-86BA-F059C424078A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D49CF8C-ABE8-4714-AC57-5BBCE2FF06B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TUIFlights/Scenes/TUIFlights/AutocompleteObject.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "autocomplete(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F288F34-ECFD-4FFF-BB40-71C45FBDB1E8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TUIFlights/Models/MapView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "mapView(_:rendererFor:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86BB776F-C76C-490B-96FC-E5B8CF879CE9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TUIFlights/Scenes/TUIFlights/TUIFlightsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "getAutocomplete(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "86BB776F-C76C-490B-96FC-E5B8CF879CE9 - c215b1f11a2620da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TUIFlights.TUIFlightsViewModel.getAutocomplete(Swift.String) -&gt; ()"
+                  moduleName = "TUIFlights"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Doc/Projects/TUIFlight/TUIFlights/TUIFlights/Scenes/TUIFlights/TUIFlightsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "86BB776F-C76C-490B-96FC-E5B8CF879CE9 - 6b829e9aceee87e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; Swift.Bool in TUIFlights.TUIFlightsViewModel.getAutocomplete(Swift.String) -&gt; ()"
+                  moduleName = "TUIFlights"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Doc/Projects/TUIFlight/TUIFlights/TUIFlights/Scenes/TUIFlights/TUIFlightsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C7010F9-1C9D-4A83-A857-29B474A1EB1E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TUIFlights/Scenes/TUIFlights/TUIFlightsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getFlights()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

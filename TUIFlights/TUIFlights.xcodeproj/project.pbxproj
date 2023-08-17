@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190C40162A8E3DC300C4C037 /* FlightPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C40152A8E3DC300C4C037 /* FlightPoint.swift */; };
+		190C40182A8E3DE600C4C037 /* From.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C40172A8E3DE600C4C037 /* From.swift */; };
+		190C401A2A8E3DF900C4C037 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C40192A8E3DF900C4C037 /* Coordinates.swift */; };
+		190C401C2A8E3E0C00C4C037 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C401B2A8E3E0C00C4C037 /* Connection.swift */; };
+		190C401F2A8E3E3A00C4C037 /* Flight+Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C401E2A8E3E3A00C4C037 /* Flight+Mapper.swift */; };
+		190C40212A8E6AFD00C4C037 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C40202A8E6AFD00C4C037 /* MapView.swift */; };
+		190C40242A8E89D500C4C037 /* Combine+CancelBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C40232A8E89D500C4C037 /* Combine+CancelBag.swift */; };
 		19D921D82A8CD98300E56C7D /* TUIFlightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D921D72A8CD98300E56C7D /* TUIFlightsApp.swift */; };
-		19D921DA2A8CD98300E56C7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D921D92A8CD98300E56C7D /* ContentView.swift */; };
 		19D921DC2A8CD98400E56C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D921DB2A8CD98400E56C7D /* Assets.xcassets */; };
 		19D921DF2A8CD98400E56C7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D921DE2A8CD98400E56C7D /* Preview Assets.xcassets */; };
-		19D921E92A8CD98400E56C7D /* TUIFlightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D921E82A8CD98400E56C7D /* TUIFlightsTests.swift */; };
 		19D921F32A8CD98400E56C7D /* TUIFlightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D921F22A8CD98400E56C7D /* TUIFlightsUITests.swift */; };
 		19D921F52A8CD98400E56C7D /* TUIFlightsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D921F42A8CD98400E56C7D /* TUIFlightsUITestsLaunchTests.swift */; };
 		19D922032A8CD9DA00E56C7D /* TUIFlightsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D922022A8CD9DA00E56C7D /* TUIFlightsViewModelTests.swift */; };
+		19D922082A8CDB2E00E56C7D /* TUIFlightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D922072A8CDB2E00E56C7D /* TUIFlightsViewModel.swift */; };
+		19D922252A8CE0C300E56C7D /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 19D922242A8CE0C300E56C7D /* Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19D922282A8CE0C300E56C7D /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D922222A8CE0C300E56C7D /* Common.framework */; };
+		19D922292A8CE0C300E56C7D /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 19D922222A8CE0C300E56C7D /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		19D9222F2A8CE0D500E56C7D /* LoadJsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9222E2A8CE0D500E56C7D /* LoadJsonData.swift */; };
+		19D922322A8CE49500E56C7D /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D922312A8CE49500E56C7D /* Flight.swift */; };
+		19D922332A8CE90100E56C7D /* flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 19D922302A8CE28800E56C7D /* flights.json */; };
+		19D922372A8D01EA00E56C7D /* TUIFlightDataFetcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D922362A8D01EA00E56C7D /* TUIFlightDataFetcherTests.swift */; };
+		19D922392A8D027F00E56C7D /* TUIFlightDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D922382A8D027F00E56C7D /* TUIFlightDataFetcher.swift */; };
+		19D9223B2A8D0E7800E56C7D /* TUIFlightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9223A2A8D0E7800E56C7D /* TUIFlightsView.swift */; };
+		19D9223D2A8D2E9D00E56C7D /* AutocompleteObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9223C2A8D2E9D00E56C7D /* AutocompleteObject.swift */; };
+		19D922412A8D2EEB00E56C7D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D922402A8D2EEB00E56C7D /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,20 +49,57 @@
 			remoteGlobalIDString = 19D921D32A8CD98300E56C7D;
 			remoteInfo = TUIFlights;
 		};
+		19D922262A8CE0C300E56C7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19D921CC2A8CD98300E56C7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19D922212A8CE0C300E56C7D;
+			remoteInfo = Common;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		19D9222D2A8CE0C300E56C7D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				19D922292A8CE0C300E56C7D /* Common.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		190C40152A8E3DC300C4C037 /* FlightPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPoint.swift; sourceTree = "<group>"; };
+		190C40172A8E3DE600C4C037 /* From.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = From.swift; sourceTree = "<group>"; };
+		190C40192A8E3DF900C4C037 /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		190C401B2A8E3E0C00C4C037 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		190C401E2A8E3E3A00C4C037 /* Flight+Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Flight+Mapper.swift"; sourceTree = "<group>"; };
+		190C40202A8E6AFD00C4C037 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		190C40232A8E89D500C4C037 /* Combine+CancelBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Combine+CancelBag.swift"; sourceTree = "<group>"; };
 		19D921D42A8CD98300E56C7D /* TUIFlights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TUIFlights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D921D72A8CD98300E56C7D /* TUIFlightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIFlightsApp.swift; sourceTree = "<group>"; };
-		19D921D92A8CD98300E56C7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		19D921DB2A8CD98400E56C7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19D921DE2A8CD98400E56C7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		19D921E42A8CD98400E56C7D /* TUIFlightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TUIFlightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		19D921E82A8CD98400E56C7D /* TUIFlightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIFlightsTests.swift; sourceTree = "<group>"; };
 		19D921EE2A8CD98400E56C7D /* TUIFlightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TUIFlightsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D921F22A8CD98400E56C7D /* TUIFlightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIFlightsUITests.swift; sourceTree = "<group>"; };
 		19D921F42A8CD98400E56C7D /* TUIFlightsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIFlightsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		19D922022A8CD9DA00E56C7D /* TUIFlightsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIFlightsViewModelTests.swift; sourceTree = "<group>"; };
+		19D922072A8CDB2E00E56C7D /* TUIFlightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIFlightsViewModel.swift; sourceTree = "<group>"; };
+		19D922222A8CE0C300E56C7D /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D922242A8CE0C300E56C7D /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		19D9222E2A8CE0D500E56C7D /* LoadJsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadJsonData.swift; sourceTree = "<group>"; };
+		19D922302A8CE28800E56C7D /* flights.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = flights.json; sourceTree = "<group>"; };
+		19D922312A8CE49500E56C7D /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		19D922362A8D01EA00E56C7D /* TUIFlightDataFetcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIFlightDataFetcherTests.swift; sourceTree = "<group>"; };
+		19D922382A8D027F00E56C7D /* TUIFlightDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIFlightDataFetcher.swift; sourceTree = "<group>"; };
+		19D9223A2A8D0E7800E56C7D /* TUIFlightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIFlightsView.swift; sourceTree = "<group>"; };
+		19D9223C2A8D2E9D00E56C7D /* AutocompleteObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutocompleteObject.swift; sourceTree = "<group>"; };
+		19D922402A8D2EEB00E56C7D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19D922282A8CE0C300E56C7D /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,15 +125,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		19D9221F2A8CE0C300E56C7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		190C401D2A8E3E2500C4C037 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				190C401E2A8E3E3A00C4C037 /* Flight+Mapper.swift */,
+			);
+			path = Mappers;
+			sourceTree = "<group>";
+		};
+		190C40222A8E7C7C00C4C037 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				19D9223C2A8D2E9D00E56C7D /* AutocompleteObject.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		19D921CB2A8CD98300E56C7D = {
 			isa = PBXGroup;
 			children = (
 				19D921D62A8CD98300E56C7D /* TUIFlights */,
 				19D921E72A8CD98400E56C7D /* TUIFlightsTests */,
 				19D921F12A8CD98400E56C7D /* TUIFlightsUITests */,
+				19D922232A8CE0C300E56C7D /* Common */,
 				19D921D52A8CD98300E56C7D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +168,7 @@
 				19D921D42A8CD98300E56C7D /* TUIFlights.app */,
 				19D921E42A8CD98400E56C7D /* TUIFlightsTests.xctest */,
 				19D921EE2A8CD98400E56C7D /* TUIFlightsUITests.xctest */,
+				19D922222A8CE0C300E56C7D /* Common.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,8 +176,11 @@
 		19D921D62A8CD98300E56C7D /* TUIFlights */ = {
 			isa = PBXGroup;
 			children = (
+				19D922342A8D018500E56C7D /* Networking */,
+				19D922092A8CDF9A00E56C7D /* Models */,
+				19D922042A8CDB0400E56C7D /* Scenes */,
 				19D921D72A8CD98300E56C7D /* TUIFlightsApp.swift */,
-				19D921D92A8CD98300E56C7D /* ContentView.swift */,
+				19D922302A8CE28800E56C7D /* flights.json */,
 				19D921DB2A8CD98400E56C7D /* Assets.xcassets */,
 				19D921DD2A8CD98400E56C7D /* Preview Content */,
 			);
@@ -115,8 +198,8 @@
 		19D921E72A8CD98400E56C7D /* TUIFlightsTests */ = {
 			isa = PBXGroup;
 			children = (
+				19D922352A8D019E00E56C7D /* Networking */,
 				19D922012A8CD9A500E56C7D /* ViewModels */,
-				19D921E82A8CD98400E56C7D /* TUIFlightsTests.swift */,
 			);
 			path = TUIFlightsTests;
 			sourceTree = "<group>";
@@ -138,7 +221,77 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		19D922042A8CDB0400E56C7D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				19D922052A8CDB0B00E56C7D /* TUIFlights */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		19D922052A8CDB0B00E56C7D /* TUIFlights */ = {
+			isa = PBXGroup;
+			children = (
+				19D922072A8CDB2E00E56C7D /* TUIFlightsViewModel.swift */,
+				19D9223A2A8D0E7800E56C7D /* TUIFlightsView.swift */,
+			);
+			path = TUIFlights;
+			sourceTree = "<group>";
+		};
+		19D922092A8CDF9A00E56C7D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				190C401D2A8E3E2500C4C037 /* Mappers */,
+				19D922312A8CE49500E56C7D /* Flight.swift */,
+				190C401B2A8E3E0C00C4C037 /* Connection.swift */,
+				190C40192A8E3DF900C4C037 /* Coordinates.swift */,
+				190C40172A8E3DE600C4C037 /* From.swift */,
+				190C40202A8E6AFD00C4C037 /* MapView.swift */,
+				190C40152A8E3DC300C4C037 /* FlightPoint.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		19D922232A8CE0C300E56C7D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				190C40222A8E7C7C00C4C037 /* Components */,
+				19D922242A8CE0C300E56C7D /* Common.h */,
+				19D9222E2A8CE0D500E56C7D /* LoadJsonData.swift */,
+				19D922402A8D2EEB00E56C7D /* Utils.swift */,
+				190C40232A8E89D500C4C037 /* Combine+CancelBag.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		19D922342A8D018500E56C7D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				19D922382A8D027F00E56C7D /* TUIFlightDataFetcher.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		19D922352A8D019E00E56C7D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				19D922362A8D01EA00E56C7D /* TUIFlightDataFetcherTests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19D9221D2A8CE0C300E56C7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D922252A8CE0C300E56C7D /* Common.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		19D921D32A8CD98300E56C7D /* TUIFlights */ = {
@@ -148,10 +301,12 @@
 				19D921D02A8CD98300E56C7D /* Sources */,
 				19D921D12A8CD98300E56C7D /* Frameworks */,
 				19D921D22A8CD98300E56C7D /* Resources */,
+				19D9222D2A8CE0C300E56C7D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				19D922272A8CE0C300E56C7D /* PBXTargetDependency */,
 			);
 			name = TUIFlights;
 			productName = TUIFlights;
@@ -194,6 +349,24 @@
 			productReference = 19D921EE2A8CD98400E56C7D /* TUIFlightsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		19D922212A8CE0C300E56C7D /* Common */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D9222A2A8CE0C300E56C7D /* Build configuration list for PBXNativeTarget "Common" */;
+			buildPhases = (
+				19D9221D2A8CE0C300E56C7D /* Headers */,
+				19D9221E2A8CE0C300E56C7D /* Sources */,
+				19D9221F2A8CE0C300E56C7D /* Frameworks */,
+				19D922202A8CE0C300E56C7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Common;
+			productName = Common;
+			productReference = 19D922222A8CE0C300E56C7D /* Common.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -215,6 +388,10 @@
 						CreatedOnToolsVersion = 14.3;
 						TestTargetID = 19D921D32A8CD98300E56C7D;
 					};
+					19D922212A8CE0C300E56C7D = {
+						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
+					};
 				};
 			};
 			buildConfigurationList = 19D921CF2A8CD98300E56C7D /* Build configuration list for PBXProject "TUIFlights" */;
@@ -233,6 +410,7 @@
 				19D921D32A8CD98300E56C7D /* TUIFlights */,
 				19D921E32A8CD98400E56C7D /* TUIFlightsTests */,
 				19D921ED2A8CD98400E56C7D /* TUIFlightsUITests */,
+				19D922212A8CE0C300E56C7D /* Common */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +422,7 @@
 			files = (
 				19D921DF2A8CD98400E56C7D /* Preview Assets.xcassets in Resources */,
 				19D921DC2A8CD98400E56C7D /* Assets.xcassets in Resources */,
+				19D922332A8CE90100E56C7D /* flights.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +440,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		19D922202A8CE0C300E56C7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -268,8 +454,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19D921DA2A8CD98300E56C7D /* ContentView.swift in Sources */,
+				190C40162A8E3DC300C4C037 /* FlightPoint.swift in Sources */,
+				19D9223B2A8D0E7800E56C7D /* TUIFlightsView.swift in Sources */,
+				190C40182A8E3DE600C4C037 /* From.swift in Sources */,
+				19D922322A8CE49500E56C7D /* Flight.swift in Sources */,
+				19D9223D2A8D2E9D00E56C7D /* AutocompleteObject.swift in Sources */,
+				190C40212A8E6AFD00C4C037 /* MapView.swift in Sources */,
+				190C401C2A8E3E0C00C4C037 /* Connection.swift in Sources */,
+				190C401A2A8E3DF900C4C037 /* Coordinates.swift in Sources */,
+				19D922082A8CDB2E00E56C7D /* TUIFlightsViewModel.swift in Sources */,
+				190C401F2A8E3E3A00C4C037 /* Flight+Mapper.swift in Sources */,
 				19D921D82A8CD98300E56C7D /* TUIFlightsApp.swift in Sources */,
+				19D922392A8D027F00E56C7D /* TUIFlightDataFetcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +473,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19D921E92A8CD98400E56C7D /* TUIFlightsTests.swift in Sources */,
+				19D922372A8D01EA00E56C7D /* TUIFlightDataFetcherTests.swift in Sources */,
 				19D922032A8CD9DA00E56C7D /* TUIFlightsViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +484,16 @@
 			files = (
 				19D921F32A8CD98400E56C7D /* TUIFlightsUITests.swift in Sources */,
 				19D921F52A8CD98400E56C7D /* TUIFlightsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D9221E2A8CE0C300E56C7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D9222F2A8CE0D500E56C7D /* LoadJsonData.swift in Sources */,
+				19D922412A8D2EEB00E56C7D /* Utils.swift in Sources */,
+				190C40242A8E89D500C4C037 /* Combine+CancelBag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +509,11 @@
 			isa = PBXTargetDependency;
 			target = 19D921D32A8CD98300E56C7D /* TUIFlights */;
 			targetProxy = 19D921EF2A8CD98400E56C7D /* PBXContainerItemProxy */;
+		};
+		19D922272A8CE0C300E56C7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19D922212A8CE0C300E56C7D /* Common */;
+			targetProxy = 19D922262A8CE0C300E56C7D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -424,6 +635,7 @@
 		19D921F92A8CD98400E56C7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +665,7 @@
 		19D921FA2A8CD98400E56C7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -555,6 +768,75 @@
 			};
 			name = Release;
 		};
+		19D9222B2A8CE0C300E56C7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7K28YK2JUX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asfcarvalho.Common;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		19D9222C2A8CE0C300E56C7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7K28YK2JUX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asfcarvalho.Common;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -590,6 +872,15 @@
 			buildConfigurations = (
 				19D921FF2A8CD98400E56C7D /* Debug */,
 				19D922002A8CD98400E56C7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D9222A2A8CE0C300E56C7D /* Build configuration list for PBXNativeTarget "Common" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D9222B2A8CE0C300E56C7D /* Debug */,
+				19D9222C2A8CE0C300E56C7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
